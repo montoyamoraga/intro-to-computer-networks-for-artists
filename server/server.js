@@ -28,7 +28,7 @@ function handleNoteOn(note, velocity, instrument) {
 
 // callback function for controlChange
 // TODO: change name of parameters and write this function
-function handleNoteOn(note, velocity, instrument) {
+function handleControlChange(note, velocity, instrument) {
 
   console.log("there was a control change event");
   
