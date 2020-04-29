@@ -40,7 +40,8 @@ function handleControlChange(note, velocity, instrument) {
 const midiOutput = new midi.Output();
 
 // declare name of port to be opened
-const midiOutputPortName = "to Max 1";
+// TODO: thkis should be chosen from command line argument
+const midiOutputPortName = "Fastlane:Fastlane MIDI A 20:0";
 // boolean for checking if port has been opened
 let isPortOpen = false;
 
