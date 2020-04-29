@@ -104,6 +104,7 @@ http.createServer(function (req, res) {
 
     res.write('<p>for today, the ip is 216.180.89.221 and the port is 12345</p>');
     res.write('<p>examples:</p>');
+    res.write('<p>http://216.180.89.221:12345/?instrument=volcaBass&type=noteOn&number=32&value=127</p>');
     res.write('<p>http://216.180.89.221:12345/?instrument=volcaBeats&type=noteOn&number=38&value=127</p>');
     res.write('<p>http://216.180.89.221:12345/?instrument=volcaKeys&type=noteOn&number=60&value=127</p>');
     
