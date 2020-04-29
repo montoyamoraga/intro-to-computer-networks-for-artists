@@ -9,7 +9,7 @@ let eventEmitter = new events.EventEmitter();
 eventEmitter.on('noteOn', handleNoteOn);
 
 // callback function for noteOn event
-function handleNoteOn(note, velocity, channel) {
+function handleNoteOn(note, velocity, instrument) {
 
   if (isPortOpen) {
     
@@ -65,40 +65,48 @@ http.createServer(function (req, res) {
     res.write('<br/>');
     
     res.write('<p>example:</p>')
-    res.write('<p>http://IP:PORT/?posX=NUMBER&posY=NUMBER&color=NUMBEr</p>');
+    res.write('<p>http://IP:PORT/?instrument=INSTRUMENT&type=TYPE&number=NUMBER&value=VALUE</p>');
     res.write('<br/>');
     
     res.write('<p>where:</p>');
-    res.write('<p>IP: a.b.c.d with a, b, c, d in range [0,255]</p>');
+    res.write('<p>IP: a.b.c.d with a, b, c, d 8-it resolution, 0-255</p>');
     res.write('<p>PORT: 9000</p>');
-    res.write('<p>posX: integer between 0-999</p>');
-    res.write('<p>posY: integer between 0-999</p>');
-    res.write('<p>color: integer between 0-15</p>');
+    res.write('<p>INSTRUMENT: selects which instrument: volcaBass, volcaBeats, volcaKeys</p>');
+    res.write('<p>TYPE: noteOn, controlChange</p>');
+    res.write('<p>NUMBER: integer 7-bit resolution, 0-127</p>');
+    res.write('<p>VALUE: integer 7-bit resolution, 0-127</p>');
     res.write('<br/>');
 
     res.write('<p>for today, the ip is 216.180.89.221 and the port is 12345</p>');
     res.write('<p>examples:</p>');
-    res.write('<p>http://216.180.89.221:12345/?posX=500&posY=300&color=0</p>');
-    res.write('<p>http://216.180.89.221:12345/?posX=0&posY=100&color=12</p>');
+    res.write('<p>http://216.180.89.221:12345/?instrument=volcaBeats&type=noteOn&number=38&value=127</p>');
+    res.write('<p>http://216.180.89.221:12345/?instrument=volcaKeys&type=noteOn&number=60&value=127</p>');
     
     // retrieve query and parse it
     let queryParsed = url.parse(req.url, true).query;
-  
-    let queryNote = queryParsed.posX;
-    let queryVelocity = queryParsed.posY;
-    let queryChannel = queryParsed.color;
+    let queryInstrument = queryParsed.instrument;
+    let queryType = queryParsed.type;
+    let queryNumber = queryParsed.number;
+    let queryValue = queryParsed.value;
 
     // populate body of html
     res.write('<br/>');
     res.write('<p>you asked for: </p>');
-    res.write('<p>posX: ' + queryNote + '</p>');
-    res.write('<p>posY: ' + queryVelocity + '</p>');
-    res.write('<p>color: ' + queryChannel + '</p>');
-    // end the response
-    res.end();
+    res.write('<p>instrument: ' + queryInstrument + '</p>');
+    res.write('<p>type: ' + queryParsed.type + '</p>');
+    res.write('<p>number: ' + queryNumber + '</p>');
+    res.write('<p>value: ' + queryValue + '</p>');
+    
+    // handle different responses and emit events
+    if (queryType == "noteOn") {
+      eventEmitter.emit('noteOn', queryNumber, queryValue, queryInstrument);
+    }
+    else if (queryType == "controlChange") {
+      eventEmitter.emit('controlChange', queryNumber, queryValue, queryInstrument);
+    }
 
-    // emit noteOn event 
-    eventEmitter.emit('noteOn', queryNote, queryVelocity, queryChannel);
+    // end the response
+    res.end();    
   }
 
 }).listen(9000);
