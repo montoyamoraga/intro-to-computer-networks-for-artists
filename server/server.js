@@ -5,8 +5,10 @@ const midi = require('midi');
 
 // create event emitter
 let eventEmitter = new events.EventEmitter();
-// set callback for noteOn event
+
+// set callbacks for events
 eventEmitter.on('noteOn', handleNoteOn);
+eventEmitter.on('controlChange', handleControlChange);
 
 // callback function for noteOn event
 function handleNoteOn(note, velocity, instrument) {
@@ -24,6 +26,14 @@ function handleNoteOn(note, velocity, instrument) {
   }
 }
 
+// callback function for controlChange
+// TODO: change name of parameters and write this function
+function handleNoteOn(note, velocity, instrument) {
+
+  console.log("there was a control change event");
+  
+}
+
 // MIDI output setup
 
 // declare midiOutput for outputting
@@ -36,6 +46,7 @@ let isPortOpen = false;
 
 // iterate through all the ports all the available MIDI ports in output
 for (let i = 0; i < midiOutput.getPortCount(); i++) {
+  console.log(midiOutput.getPortName(i));
   if (midiOutput.getPortName(i) == midiOutputPortName) {
     console.log("opened MIDI output port \"" + midiOutput.getPortName(i) + "\"");
     midiOutput.openPort(i);
