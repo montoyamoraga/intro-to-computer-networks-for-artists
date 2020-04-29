@@ -13,13 +13,12 @@ eventEmitter.on('controlChange', handleControlChange);
 // callback function for noteOn event
 function handleNoteOn(note, velocity, instrument) {
 
-  let channel =  0;
-
+  let channel = 0;
 
   if (isPortOpen) {
 
 
-    if (instrument = "volcaBass") {
+    if (instrument == "volcaBass") {
       channel = 2;
     }
     else if (instrument == "volcaBeats") {
