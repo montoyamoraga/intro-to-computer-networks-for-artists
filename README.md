@@ -14,6 +14,38 @@ We will use ngrok or port forwarding.
 
 * Node.js
 
+## Audio
+
+We will use two different programming environments for audio: Pure Data and ChucK.
+
+### ChucK
+
+* Install from [https://chuck.cs.princeton.edu/](https://chuck.cs.princeton.edu/).
+
+* Open the app miniAudicle.
+
+* Setup MIDI
+
+### Pure Data
+
+* Install from [https://puredata.info/](https://puredata.info/)
+
+* Open the app pd.
+
+
+
+## Visual
+
+We will use two different programming environments for visuals
+
+### openFrameWorks
+
+* Install from [https://openframeworks.cc/](https://openframeworks.cc/)
+
+### Processing
+
+* Install from [https://processing.org/](https://processing.org/).
+
 ## Moodboard
 
 * Open source
