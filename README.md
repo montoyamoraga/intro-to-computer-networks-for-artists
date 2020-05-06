@@ -4,11 +4,28 @@
 
 This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
 
+## Goals
+
+* Setup connections between computers
+* Explain servers and clients
+
+## Constraints
+
+* Open source
+* As cheap as possible
+* As easy as possible
+* All desktop operating system
+* Unidirectional communication, like postcards :)
+* Not permanent
+
+
+
 ## Instructions
 
 Check if you have Node.js, if not, please install it.
 
-We will use ngrok or port forwarding.
+We will use port forwarding.
+
 
 ## Dependencies
 
@@ -24,7 +41,7 @@ We will use two different programming environments for audio: Pure Data and Chuc
 
 * Open the app miniAudicle.
 
-* Setup MIDI
+* Setup MIDI.
 
 ### Pure Data
 
@@ -32,7 +49,7 @@ We will use two different programming environments for audio: Pure Data and Chuc
 
 * Open the app pd.
 
-
+* Setup MIDI.
 
 ## Visual
 
@@ -45,11 +62,3 @@ We will use two different programming environments for visuals
 ### Processing
 
 * Install from [https://processing.org/](https://processing.org/).
-
-## Moodboard
-
-* Open source
-* Low cost
-* All desktop operating systems
-* Easy
-* Explain servers and clients
