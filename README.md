@@ -27,7 +27,7 @@ This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
 
 ## Steps
 
-We will have one receiver, and or more senders.
+There is one receiver, one or more senders.
 
 Receivers are people who run software for audiovisual generation, and open it to the internet and enjoy the experience.
 
@@ -118,7 +118,47 @@ We will use two different programming environments for audio: Pure Data and Chuc
 
 ## Visual
 
-We will use two different programming environments for visuals
+We have two different programming environments for visuals.
+
+There are two examples implemented:
+
+### Parameters
+
+Draw circle
+
+
+0: 000, 000, 000 NOTHING
+1: 255, 000, 000 RED
+2: 000, 255, 000 GREEN
+3: 000, 000, 255 BLUE
+4: 255, 255, 000 RED GREEN
+5: 255, 000, 255 RED BLUE
+6: 000, 255, 255 GREEN BLUE
+7: 255, 255, 255 RED GREEN BLUE
+
+
+canvas is 128x128 pixels
+
+255x255x255
+
+(bits - 1) * 255 / (bits - 1)
+
+0
+1
+2
+3
+4
+5
+6
+7
+
+
+* posX: horizontal position of circle center
+* posY: vertical position of circle center
+* diameter: size of the circle
+* colorR: red amount of fill color
+* colorG: green amount of fill color
+* colorB: blue amount of fill color
 
 ### openFrameWorks
 
