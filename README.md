@@ -4,6 +4,10 @@
 
 This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
 
+## Docs
+
+![00.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/00.jpg "00.jpg") 
+
 ## Goals
 
 * Setup connections between computers
