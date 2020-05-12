@@ -4,8 +4,9 @@ import netP5.*;
 OscP5 mySender;
 NetAddress myRemoteLocation;
 
-String address = "127.0.0.1";
-int port = 12345;
+//String address = "127.0.0.1";
+String address = "216.180.89.221";
+int port = 12344;
 
 int numberPoints = 128;
 
