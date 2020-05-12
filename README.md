@@ -8,6 +8,26 @@ This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
 
 ![00.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/00.jpg "00.jpg") 
 
+![01.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/01.jpg "01.jpg") 
+
+![02.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/02.jpg "02.jpg") 
+
+![03.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/03.jpg "03.jpg") 
+
+![04.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/04.jpg "04.jpg") 
+
+![05.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/05.jpg "05.jpg") 
+
+![06.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/06.jpg "06.jpg") 
+
+![07.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/07.jpg "07.jpg") 
+
+![08.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/08.jpg "08.jpg") 
+
+![09.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/09.jpg "09.jpg") 
+
+![10.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/10.jpg "10.jpg")
+
 ## Goals
 
 * Setup connections between computers
