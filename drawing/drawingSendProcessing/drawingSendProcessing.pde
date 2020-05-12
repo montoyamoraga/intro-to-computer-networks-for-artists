@@ -1,7 +1,5 @@
 // sendDrawingProcessing
-// draw line with mouse
-// on 256x256 canvas
-// send a line to an IP address
+// draw line with mouse and send to another computer
 // may 2020
 
 // import libraries
@@ -44,11 +42,9 @@ void setup() {
   //receiverAddress = "216.180.89.221";
   receiverAddress = "127.0.0.1";
 
-  // TODO: ask the receiver for the port number
-  // sendPort = 12344;
-  // or test locally with 9002
-   sendPort = 9002;
-
+  // TODO: ask the receiver for the port number, or test locally with 9002
+   sendPort = 12344;
+   
   // declare new OscP5 sender, which listens on port
   mySender = new OscP5(this, receivePort);
   // declare destination
