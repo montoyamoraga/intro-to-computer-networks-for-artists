@@ -42,7 +42,7 @@ http.createServer(function (req, res) {
     res.write('<br/>');
 
     res.write('<p>today, these parameters are fixed:</p>');
-    res.write('<p>IP = 216.180.89.221 , PORT = 12345 , TYPE = noteOn </p>');
+    res.write('<p>IP = 216.180.89.221 , PORT = 12344 , TYPE = noteOn </p>');
     res.write('<p>and you can experiment with these ones:</p>');
     res.write('<p>CHANNEL = selects a different instrument to play</p>');
     res.write('<p>NUMBER = selects a different note on the instrument</p>');
@@ -76,4 +76,4 @@ http.createServer(function (req, res) {
     res.end();    
   }
 
-}).listen(9000);
+}).listen(9002);
