@@ -50,7 +50,7 @@ http.createServer(function (req, res) {
     res.write('<br/>');
    
     res.write('<p>examples:</p>');
-    res.write('<p>http://216.180.89.221:12345/?type=noteOn&channel=1&number=60&value=90</p>');
+    res.write('<p>http://216.180.89.221:12344/?type=noteOn&channel=1&number=60&value=90</p>');
     
     // retrieve query and parse it
     let queryParsed = url.parse(req.url, true).query;
