@@ -4,7 +4,21 @@
 
 This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
 
-## Docs
+## Docs for sound
+
+![11.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/11.jpg "11.jpg") 
+
+![12.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/12.jpg "12.jpg") 
+
+![13.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/13.jpg "13.jpg") 
+
+![14.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/14.jpg "14.jpg") 
+
+![15.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/15.jpg "15.jpg") 
+
+![16.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/16.jpg "16.jpg") 
+
+## Docs for drawing
 
 ![00.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/00.jpg "00.jpg") 
 
