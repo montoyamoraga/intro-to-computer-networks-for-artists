@@ -49,7 +49,7 @@ http.createServer(function (req, res) {
     res.write('<p>VALUE = selects a different velocity for the note</p>');
     res.write('<br/>');
    
-    res.write('<p>examples:</p>');
+    res.write('<p>example:</p>');
     res.write('<p>http://216.180.89.221:12344/?type=noteOn&channel=1&number=60&value=90</p>');
     
     // retrieve query and parse it
