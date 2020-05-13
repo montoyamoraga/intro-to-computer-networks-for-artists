@@ -1,0 +1,22 @@
+#N canvas 1348 1729 500 504 12;
+#X obj 99 226 netsend 1;
+#X obj 167 148 append 2;
+#X obj 279 155 pack s s 0;
+#X floatatom 366 39 5 0 0 0 - - -;
+#X text 406 37 port;
+#X obj 280 207 print;
+#X obj 366 74 t b f;
+#X obj 194 31 loadbang;
+#X msg 194 60 symbol connect;
+#X obj 215 89 t b s;
+#X obj 279 131 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 2 0 5 0;
+#X connect 3 0 6 0;
+#X connect 6 0 10 0;
+#X connect 6 1 2 2;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 10 0;
+#X connect 9 1 2 0;
+#X connect 10 0 2 0;
