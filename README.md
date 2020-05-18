@@ -2,7 +2,7 @@
 
 ## About
 
-localhot-for-arts is a repository which collects research about computer protocols and applications for arts
+localhost-for-arts is a repository which collects research about computer protocols and applications for arts
 
 It includes tutorials and research about how to stream data for collaborating with media arts.
 
