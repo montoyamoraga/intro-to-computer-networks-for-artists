@@ -1,10 +1,14 @@
+# Mac OSX
 .DS_Store
 
+# Node.js
 node_modules/
 
+# Xcode
 xcuserdata
 *.xcworkspace
 
+# general build patterns
 build/
 obj/
 *.o
