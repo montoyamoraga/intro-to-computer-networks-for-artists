@@ -14,17 +14,16 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ## Tutorial
 
-After studying this tutorial you will learn the following concepts:
+This tutorial is an introduction to:
 
-* Bits
-* IP address
-* Computer server
-* Computer client
-
-and you will  explains how to do the following activities:
-
-* Know the IP address of your computer.
-* Open a port on your computer to send and receive messages.
+* These concepts:
+  * Bits
+  * IP address
+  * Computer server
+  * Computer client
+* These tasks:
+  * Know the IP address of your computer
+  * Open a port on your computer to send and receive messages.
 
 ## Objectives
 
@@ -39,14 +38,24 @@ and you will  explains how to do the following activities:
 
 ## Constraints
 
-* This is a tutorial
-* Open source
+* All the software we are using are free and open source
+* All the code is free and open source
+* Runs on desktop computers with Linux /  Mac / Windows operating systems
+
+## Assumptions
+
+* You have a computer
+* You have an internet connection
+
+
+
+
+
+
 * Home use
 * Anyone can contribute more examples
-* All examples are hackable and encourage experimentation
 * As cheap as possible
 * As easy as possible
-* All desktop operating system
 * Unidirectional communication, like postcards :)
 * Not permanent
 
@@ -230,3 +239,8 @@ canvas is 128x128 pixels
 ### Processing
 
 * Install from [https://processing.org/](https://processing.org/).
+
+
+## License
+
+MIT
