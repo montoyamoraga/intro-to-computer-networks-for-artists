@@ -25,13 +25,13 @@ Number of different values = 2^B
 
 Some examples:
 
-1 bit resolution ; 2^1 = 2 values ; 0, 1
+Using 1 bit ; 2^1 = 2 values ; 0, 1
 
-2 bit resolution ; 2^2 = 4 values ; 00, 01, 10, 11
+Using 2 bit ; 2^2 = 4 values ; 00, 01, 10, 11
 
-3 bit resolution ; 2^3 = 8 values ; 000, 001, 010, 011, 100, 101, 110, 111
+Using 3 bit ; 2^3 = 8 values ; 000, 001, 010, 011, 100, 101, 110, 111
 
-4 bit resolution ; 2^4 = 16 values ; 0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
+Using 4 bit ; 2^4 = 16 values ; 0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
 
 #### IP address
 
