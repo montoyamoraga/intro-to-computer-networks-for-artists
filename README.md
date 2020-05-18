@@ -1,10 +1,8 @@
-# localhost-for-arts
+# introduction-to-computer-networks-for-artists
 
 ## About
 
-localhost-for-arts is a repository which collects research about computer protocols and applications for arts
-
-It includes tutorials and research about how to stream data for collaborating with media arts.
+Introduction to computer networks for artists is a collection of tutorials regarding computer protocols for sharing data between computers and the internet, intended for artists.
 
 It is an open sketchbook, updated frequently and iteratively, riffing off from their original documentation, and everybody is welcome to contribute to it.
 
