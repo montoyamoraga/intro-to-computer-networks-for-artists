@@ -2,7 +2,13 @@
 
 ## About
 
-This is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/).
+localhot-for-arts is a repository which collects research.
+
+It includes tutorials and research about how to stream data for collaborating with media arts.
+
+It is an open sketchbook, updated frequently and iteratively, riffing off from their original documentation, and everybody is welcome to contribute to it.
+
+It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started in 2020, during their work as a research assistant at [MIT Media Lab](https://www.media.mit.edu/)'s [Opera of the Future](https://www.media.mit.edu/groups/opera-of-the-future/) and [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) research groups, respectively led by [Tod Machover](https://www.media.mit.edu/people/tod/overview/) and [Zach Lieberman](https://www.media.mit.edu/people/zachl/overview/).
 
 ## Docs for sound
 
