@@ -2,13 +2,53 @@
 
 ## About
 
-localhot-for-arts is a repository which collects research.
+localhot-for-arts is a repository which collects research about computer protocols and applications for arts
 
 It includes tutorials and research about how to stream data for collaborating with media arts.
 
 It is an open sketchbook, updated frequently and iteratively, riffing off from their original documentation, and everybody is welcome to contribute to it.
 
 It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started in 2020, during their work as a research assistant at [MIT Media Lab](https://www.media.mit.edu/)'s [Opera of the Future](https://www.media.mit.edu/groups/opera-of-the-future/) and [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) research groups, respectively led by [Tod Machover](https://www.media.mit.edu/people/tod/overview/) and [Zach Lieberman](https://www.media.mit.edu/people/zachl/overview/).
+
+## Overview
+
+## Tutorial
+
+After studying this tutorial you will learn the following concepts:
+
+* Bits
+* IP address
+* Computer server
+* Computer client
+
+and you will  explains how to do the following activities:
+
+* Know the IP address of your computer.
+* Open a port on your computer to send and receive messages.
+
+## Objectives
+
+* As less jargon as possible.
+
+* This project is for beginners.
+* Code is free and open source.
+* Instructions avoid jargon.
+
+* This project is for beginners.
+* This project is 
+
+## Constraints
+
+* This is a tutorial
+* Open source
+* Home use
+* Anyone can contribute more examples
+* All examples are hackable and encourage experimentation
+* As cheap as possible
+* As easy as possible
+* All desktop operating system
+* Unidirectional communication, like postcards :)
+* Not permanent
 
 ## Docs for sound
 
@@ -47,27 +87,6 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 ![09.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/09.jpg "09.jpg") 
 
 ![10.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/10.jpg "10.jpg")
-
-## Goals
-
-* Setup connections between computers
-* Explain servers and clients
-* Explain IP addresses
-* Explain bits
-* Explain computer protocols and applications for arts
-
-## Constraints
-
-* This is a tutorial
-* Open source
-* Home use
-* Anyone can contribute more examples
-* All examples are hackable and encourage experimentation
-* As cheap as possible
-* As easy as possible
-* All desktop operating system
-* Unidirectional communication, like postcards :)
-* Not permanent
 
 ## Steps
 
