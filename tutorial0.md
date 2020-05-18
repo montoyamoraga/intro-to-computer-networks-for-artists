@@ -23,35 +23,47 @@ The amount of different values grows exponentially with bit resolution.
 
 Number of different values = 2^B
 
-1 bit resolution
-2^1 = 2 values
-0, 1
+Some examples:
 
+1 bit resolution ; 2^1 = 2 values ; 0, 1
 
-2 bit resolution
-2^2 = 4 values
-00, 01, 10, 11
+2 bit resolution ; 2^2 = 4 values ; 00, 01, 10, 11
 
-3 bit resolution
-2^3 = 8 values
-000, 001, 010, 011, 100, 101, 110, 111
+3 bit resolution ; 2^3 = 8 values ; 000, 001, 010, 011, 100, 101, 110, 111
 
+4 bit resolution ; 2^4 = 16 values ; 0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
 
+#### IP address
 
-If we want to represent the decimal numbers 0, 1, 2, 3 with bits, we can use this conversion:
+IP address stands for "Internet Protocol address".
 
-* 0 - 00
-* 1 - 01
-* 2 - 10
-* 3 - 11
+It is a number assigned to a computer connected to a computer network.
 
+We will learn and use the flavor IPv4, there is also IPv6.
 
+#### IPv4
 
+IPv4 defines an IP address as a number with 32 bit resolution.
 
+We write this address with 4 numbers, each with 8 bit resolution.
 
-Bit resolution makes the s exponential, with B bits, we can represent 2^B values.
+Since each number is 8 bit resolution, their range is 0-255.
 
-We call this number B, the bit resolution.
+The typical syntax is each number separated by a ".".
+
+One example of an IP address is 127.0.0.1
+
+#### 127.0.0.1
+
+This is an address you see often, because it means "this computer".
+
+It is useful when you want your code to refer to the computer it is running it.
+
+#### localhost
+
+127.0.0.1 and localhost mean the same.
+
+Sometimes you cannot use localhost and you need to use 127.0.0.1
 
 
 ## Steps
