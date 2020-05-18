@@ -1,6 +1,26 @@
 # tutorial0
 
-IP and ports
+## Summary
+
+This tutorial introduces you to the introductory concepts of computer networks, and shows you how to know the IP address of your computer.
+
+
+## Concepts
+
+###  Bits
+
+A bit is a piece of information.
+
+A bit can have one of two values, 0 or 1.
+
+If we want to represent the decimal numbers 0, 1, 2, 3 with bits, we can use this conversion:
+
+* 0 - 00
+* 1 - 01
+* 2 - 10
+* 3 - 11
+
+
 
 ## Steps
 
