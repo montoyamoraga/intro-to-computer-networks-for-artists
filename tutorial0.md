@@ -7,11 +7,36 @@ This tutorial introduces you to the introductory concepts of computer networks, 
 
 ## Concepts
 
-###  Bits
+###  Bit
 
 A bit is a piece of information.
 
 A bit can have one of two values, 0 or 1.
+
+#### Bit resolution
+
+With more bits, we can represent more data.
+
+Bit resolution (B) is the amount of bits we are using to represent data.
+
+The amount of different values grows exponentially with bit resolution.
+
+Number of different values = 2^B
+
+1 bit resolution
+2^1 = 2 values
+0, 1
+
+
+2 bit resolution
+2^2 = 4 values
+00, 01, 10, 11
+
+3 bit resolution
+2^3 = 8 values
+000, 001, 010, 011, 100, 101, 110, 111
+
+
 
 If we want to represent the decimal numbers 0, 1, 2, 3 with bits, we can use this conversion:
 
@@ -20,6 +45,13 @@ If we want to represent the decimal numbers 0, 1, 2, 3 with bits, we can use thi
 * 2 - 10
 * 3 - 11
 
+
+
+
+
+Bit resolution makes the s exponential, with B bits, we can represent 2^B values.
+
+We call this number B, the bit resolution.
 
 
 ## Steps
