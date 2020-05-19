@@ -14,7 +14,7 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ## Tutorials
 
-### [tutorial0](tutorial0.md): introductory concepts + setup
+### [tutorial0](tutorial0.md): introduction to computer networks
 
 After completing this tutorial, you will:
 
@@ -23,13 +23,13 @@ After completing this tutorial, you will:
 * Learn how to enable your computer to receive data from other computers through your router
 * Learn how to send data to other computers through the internet
 
-### [tutorial1](tutorial1.md): computer network + sound manipulation
+### [tutorial1](tutorial1.md): introduction to sound with Pure Data
 
 After completing this tutorial, you will:
 
 * 
 
-### [tutorial2](tutorial2.md): computer network + drawing
+### [tutorial2](tutorial2.md): introdution to drawing with Processing and openFrameworks
 
 After completing this tutorial, you will:
 
