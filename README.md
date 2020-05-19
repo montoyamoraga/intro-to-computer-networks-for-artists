@@ -16,13 +16,24 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ### [tutorial0](tutorial0.md): introductory concepts + setup
 
-This tutorial helps you learn introductory concepts, how to setup your computer
+After completing this tutorial, you will:
+
+* Learn about bits and bit resolution
+* Learn about public and private IP addresses
+* Learn how to enable your computer to receive data from other computers through your router
+* Learn how to send data to other computers through the internet
 
 ### [tutorial1](tutorial1.md): computer network + sound manipulation
 
-### [tutorial2](tutorial1.md): computer network + drawing
+After completing this tutorial, you will:
 
+* 
 
+### [tutorial2](tutorial2.md): computer network + drawing
+
+After completing this tutorial, you will:
+
+* 
 
 ## Overview
 
