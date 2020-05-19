@@ -29,20 +29,18 @@ These tutorials are an introduction to:
 
 ## Objectives
 
+* Make computers network accesible for beginners.
 * As less jargon as possible.
+* All code is free and open source.
+* All code examples are less than a 100 lines of code
+* All code examples are documented and commented
 
-* This project is for beginners.
-* Code is free and open source.
-* Instructions avoid jargon.
-
-* This project is for beginners.
-* This project is 
 
 ## Constraints
 
-* All the software we are using are free and open source
-* All the code is free and open source
-* Runs on desktop computers with Linux /  Mac / Windows operating systems
+* All the software used is free and open source
+* All the code written free and open source
+* All software and code runs on desktop computers with Linux /  Mac / Windows operating systems
 * Unidirectional communication, like postcards :)
 * As cheap as possible
 * As easy as possible
