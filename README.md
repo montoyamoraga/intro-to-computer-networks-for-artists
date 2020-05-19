@@ -34,7 +34,7 @@ These tutorials are an introduction to:
 * All code is free and open source.
 * All code examples are less than a 100 lines of code
 * All code examples are documented and commented
-
+* Celebrate open source software for media arts, including ChucK, openFrameworks, Pure Data, Processing
 
 ## Constraints
 
