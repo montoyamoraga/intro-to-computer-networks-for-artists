@@ -10,9 +10,7 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ## Overview
 
-## Tutorial
-
-This tutorial is an introduction to:
+These tutorials are an introduction to:
 
 * These concepts:
   * Bits
@@ -22,6 +20,12 @@ This tutorial is an introduction to:
 * These tasks:
   * Know the IP address of your computer
   * Open a port on your computer to send and receive messages.
+
+## Tutorials
+
+* [tutorial0](tutorial0.md): introduction to IP addresses, how to setup your computer.
+* [tutorial1](tutorial1.md): sharing data for audio between computers.
+* [tutorial2](tutorial2.md): sharing data for drawing between computers.
 
 ## Objectives
 
@@ -51,11 +55,6 @@ This tutorial is an introduction to:
 * As easy as possible
 * Unidirectional communication, like postcards :)
 * Not permanent
-
-## Tutorials
-
-* [tutorial0](tutorial0.md)
-
 
 ## License
 
