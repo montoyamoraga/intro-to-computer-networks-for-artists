@@ -43,18 +43,21 @@ These tutorials are an introduction to:
 * All the software we are using are free and open source
 * All the code is free and open source
 * Runs on desktop computers with Linux /  Mac / Windows operating systems
+* Unidirectional communication, like postcards :)
+* As cheap as possible
+* As easy as possible
+* Not permanent
 
 ## Assumptions
 
-* You have a computer
 * You have an internet connection
+* You have a computer
+* You can install software on your computer
 
-* Home use
-* Anyone can contribute more examples
-* As cheap as possible
-* As easy as possible
-* Unidirectional communication, like postcards :)
-* Not permanent
+## Contribute
+
+* Bugs, issues, pull requests
+* More examples, concepts
 
 ## License
 
