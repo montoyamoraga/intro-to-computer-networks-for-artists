@@ -120,32 +120,21 @@ With this, I made my computer accesible to the internet.
 
 After you enable the port forwarding, you can send messages to the computer.
 
-### Open your port and test it
+### Understand the data flow
 
+In these tutorials, you need the following:
 
-## Steps
+* One computer acting as receiver
+* One computer acting as sender
 
-There is one receiver, one or more senders.
+The communication is unidirectional, and there is no guarantee that the data is received.
 
-Receivers are people who run software for audiovisual generation, and open it to the internet and enjoy the experience.
+The bits might be lost midway, and nobody will know where they go :(
 
-Senders are people who run software so that they can trigger or control the audiovisual software on the receiver.
-
-### Human message to bits
 
 We want senders to be able to send messages such as "draw a triangle" or "play a snare drum sound", and have the software on the receiver's side to interpret this message.
 
-On this tutorial we will be using MIDI to codify our messages. MIDI is a way of packaging information. It is usually done for music, and here we will use it for audiovisual parameters in general.
 
-We will use MIDI, which allows to send messages with seven bit resolution. Seven bits means we have pow(2, 7) = 128 different values. In computers we usually start counting from 0, so our values will go from a minimum of 0 to a maximum of 127.
-
-## Bits over the internet
-
-The sender will now be able to send these bits over the internet.
-
-This communication will be unidirectional, the sender cannot send information back.
-
-The bits might be lost midway, and nobody will know where they go :(
 
 
 ## Receive the messages
@@ -158,7 +147,7 @@ Our computer has an address at home, as well as all the other devices.
 
 ## Receiver
 
-### Dependencies
+### Installation
 
 We will use the following software on your computer:
 
@@ -181,9 +170,3 @@ Additionally, you have the option use any combination of these four softwares fo
   * If you don't have Node.js installed, please follow the instructions here: [https://nodejs.org/](https://nodejs.org/)
 * Download this repository TODO: add link to releases.
 * Uncompress the folder and place it on your Desktop.
-
-
-## Sender
-
-* There can be many senders per every receiver
-* The sender will have to give you many 

@@ -20,6 +20,11 @@ We will use two different programming environments for audio: Pure Data and Chuc
 
 * Setup MIDI.
 
+On this tutorial we will be using MIDI to codify our messages. MIDI is a way of packaging information. It is usually done for music, and here we will use it for audiovisual parameters in general.
+
+We will use MIDI, which allows to send messages with seven bit resolution. Seven bits means we have pow(2, 7) = 128 different values. In computers we usually start counting from 0, so our values will go from a minimum of 0 to a maximum of 127.
+
+
 ## Docs for sound
 
 ![11.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/11.jpg "11.jpg") 
