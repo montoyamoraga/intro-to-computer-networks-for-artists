@@ -4,7 +4,7 @@
 
 Introduction to computer networks for artists is a collection of tutorials regarding computer protocols for sharing data between computers and the internet, intended for artists.
 
-It is an open sketchbook, updated frequently and iteratively, riffing off from their original documentation, and everybody is welcome to contribute to it.
+It is an open sketchbook, updated frequently, always in a rough state, and open for contributions.
 
 It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started in 2020, during their work as a research assistant at [MIT Media Lab](https://www.media.mit.edu/)'s [Opera of the Future](https://www.media.mit.edu/groups/opera-of-the-future/) and [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) research groups, respectively led by [Tod Machover](https://www.media.mit.edu/people/tod/overview/) and [Zach Lieberman](https://www.media.mit.edu/people/zachl/overview/).
 
@@ -19,7 +19,7 @@ These tutorials are an introduction to:
   * Computer client
 * These tasks:
   * Know the IP address of your computer
-  * Open a port on your computer to send and receive messages.
+  * Open a port on your computer to send and receive messages
 
 ## Tutorials
 
