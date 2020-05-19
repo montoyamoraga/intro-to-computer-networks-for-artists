@@ -14,8 +14,6 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ## Tutorials
 
-The code is 
-
 * [tutorial0](tutorial0.md): introductory concepts, how to setup your computer
 * [tutorial1](tutorial1.md): sharing data between computers for sound manipulation
 * [tutorial2](tutorial2.md): sharing data between computers for drawing
