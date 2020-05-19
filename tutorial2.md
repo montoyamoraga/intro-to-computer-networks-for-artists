@@ -1,42 +1,48 @@
 # tutorial2
 
-drawing
+## Summary
 
-## Visual
+This tutorial introduces you to the use of computer networks for sharing data for drawing.
 
-We have two different programming environments for visuals.
+This tutorial only pre-requisite is tutorial0.md
 
-There are two examples implemented:
+## Concepts
+
+In this tutorial, two different computers will be used:
+
+### Sender computer
+
+We draw on this computer and send the drawing.
+
+### Receiver computer
+
+We receive the drawing on this computer.
+
+### Canvas
+
+The canvas is a graphics environment on the sender or receiver computer where we draw.
+
+The canvas has a dimension of 256 x 256 pixels.
+
+## Installation
+
+The sender computer must have Processing installed, which is available at [https://processing.org/](https://processing.org/).
+
+The receiver computer must have openFrameworks installed, which is available at [https://openframeworks.cc/](https://openframeworks.cc/).
+
+## Setup
+
+Follow this instructions in this order:
+
+* Receiver computer: follows the instructions on tutorial0 for port forwarding.
+* Receiver computer: shares its public IP address and target port with the sender computer.
+* Receiver computer: runs the openFrameworks code.
+* Sender computer: runs the Processing code and draws.
+
+
+
 
 ### Parameters
-
-Draw circle
-
-
-0: 000, 000, 000 NOTHING
-1: 255, 000, 000 RED
-2: 000, 255, 000 GREEN
-3: 000, 000, 255 BLUE
-4: 255, 255, 000 RED GREEN
-5: 255, 000, 255 RED BLUE
-6: 000, 255, 255 GREEN BLUE
-7: 255, 255, 255 RED GREEN BLUE
-
-
-canvas is 128x128 pixels
-
-255x255x255
-
-(bits - 1) * 255 / (bits - 1)
-
-0
-1
-2
-3
-4
-5
-6
-7
 
 
 * posX: horizontal position of circle center
@@ -46,15 +52,7 @@ canvas is 128x128 pixels
 * colorG: green amount of fill color
 * colorB: blue amount of fill color
 
-### openFrameWorks
-
-* Install from [https://openframeworks.cc/](https://openframeworks.cc/)
-
-### Processing
-
-* Install from [https://processing.org/](https://processing.org/).
-
-## Docs for drawing
+## Drawn documentation
 
 ![00.jpg](https://github.com/montoyamoraga/localhost-for-arts/raw/master/docs/00.jpg "00.jpg") 
 

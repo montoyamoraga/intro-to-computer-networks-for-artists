@@ -4,6 +4,7 @@
 
 This tutorial introduces you to the introductory concepts of computer networks, and shows you how to know the IP address of your computer.
 
+This tutorial has no pre-requisites.
 
 ## Concepts
 
@@ -13,7 +14,7 @@ A bit is a piece of information.
 
 A bit can have one of two values, 0 or 1.
 
-#### Bit resolution
+### Bit resolution
 
 With more bits, we can represent more data.
 
@@ -23,7 +24,7 @@ The amount of different values grows exponentially with bit resolution.
 
 Number of different values = 2^B
 
-Some examples:
+Some examples of different resolutions and all the possible values:
 
 Using 1 bit ; 2^1 = 2 values ; 0, 1
 
@@ -33,7 +34,7 @@ Using 3 bit ; 2^3 = 8 values ; 000, 001, 010, 011, 100, 101, 110, 111
 
 Using 4 bit ; 2^4 = 16 values ; 0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111
 
-#### IP address
+### IP address
 
 IP address stands for "Internet Protocol address".
 
@@ -41,7 +42,7 @@ It is a number assigned to a computer connected to a computer network.
 
 We will learn and use the flavor IPv4, there is also IPv6.
 
-#### IPv4
+### IPv4
 
 IPv4 defines an IP address as a number with 32 bit resolution.
 
@@ -53,17 +54,73 @@ The typical syntax is each number separated by a ".".
 
 One example of an IP address is 127.0.0.1
 
-#### 127.0.0.1
+### 127.0.0.1
 
 This is an address you see often, because it means "this computer".
 
 It is useful when you want your code to refer to the computer it is running it.
 
-#### localhost
+### localhost
 
-127.0.0.1 and localhost mean the same.
+127.0.0.1 and localhost mean the same, "this computer".
 
-Sometimes you cannot use localhost and you need to use 127.0.0.1
+### Computer ports
+
+Computer ports are needed for communication between computers.
+
+For receiving data on your computer, you need to open a port.
+
+For sending data to a computer, you need to know the address of the computer you are sending to, and you also need to specify the target port.
+
+Ports have 16 bit resolution, so their range is from 0 to 65,535.
+
+## Tasks
+
+### Understand your private IP address
+
+Your computer is connected to the internet through a router.
+
+Your router sets up a computer network, where all your devices are connected to.
+
+Each device connects to the internet through your router.
+
+Each device on your home computer network has a unique private IP address.
+
+Each private IP address looks like this: 192.168.X.Y, where X and Y are numbers between 0 and 255.
+
+With these private IP addresses you can make your devices send messages to each other through the same network.
+
+You can check your IP address by opening your terminal application and executing ```ifconfig``` on Linux / Mac, or ```ipconfig``` on Windows.
+
+### Understand your public IP address
+
+The private IP address of your computer allows other devices on your home computer network to send messages to it.
+
+If you want other computers across the internet, at the other side of your router, to send messages to your computer, you need a public IP address.
+
+To know your public IP address, open your internet browser and do a search for "my IP address", or go to a website like [https://whatismyipaddress.com/](https://whatismyipaddress.com/).
+
+This public IP address is the one your router has right now, and it is assigned by your internet service provider (ISP), and most probably it changes often.
+
+You can use your public IP address to approximately estimate where you geographically are in the world.
+
+For this tutorial, we embrace this constraint, and we acknowledge that our connections will work for the moment, and will break in the future.
+
+### Enable port forwarding on your router
+
+This is the trickiest part of the tutorial, and it depends on the router and/or internet service provider you are using.
+
+Please adapt this example to your case, and help by contributing with more examples.
+
+I am using the Starry internet service provider. On their mobile app, I enabled a port forwarding from port X to Y on the private IP address of my computer, using protocols TCP and UDP.
+
+With this, I made my computer accesible to the internet.
+
+#### Send messages to the computer
+
+After you enable the port forwarding, you can send messages to the computer.
+
+### Open your port and test it
 
 
 ## Steps
