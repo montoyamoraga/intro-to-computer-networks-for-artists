@@ -6,9 +6,9 @@ Introduction to computer networks for artists is a collection of tutorials regar
 
 This project is an open sketchbook, updated frequently, always in a rough state, and open for contributions.
 
-It is a celebration of open source software for arts,
+This project is a celebration of open source software for arts, and an invitation for artists to use networks for collaboration.
 
-
+This project focuses on sending raw data without compression, and without taking latency into account.
 
 It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started in 2020, during their work as a research assistant at [MIT Media Lab](https://www.media.mit.edu/)'s [Opera of the Future](https://www.media.mit.edu/groups/opera-of-the-future/) and [Future Sketches](https://www.media.mit.edu/groups/future-sketches/overview/) research groups, respectively led by [Tod Machover](https://www.media.mit.edu/people/tod/overview/) and [Zach Lieberman](https://www.media.mit.edu/people/zachl/overview/).
 
@@ -47,6 +47,9 @@ These tutorials are an introduction to:
 * All software and code is free and open source
 * All code is documented and commented
 * All code examples are less than 100 lines
+* All data sent is raw without compression
+* All data sent is as fast as possible over internet infrastructure
+* Either embrace latency or ignore it
 * All communication is unidirectional
 * As cheap as possible
 * As easy as possible
