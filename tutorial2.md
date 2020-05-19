@@ -24,6 +24,19 @@ The canvas is a graphics environment on the sender or receiver computer where we
 
 The canvas has a dimension of 256 x 256 pixels.
 
+The canvas has a white background.
+
+### Drawing
+
+The drawing is made on the sender computer by clicking and dragging the mouse.
+
+The drawing is a line with the following features:
+
+* Black stroke
+* 1 pixel stroke width
+* 256 vertices maximum
+* Older vertices get deleted to make space for newer vertices
+
 ## Installation
 
 The sender computer must have Processing installed, which is available at [https://processing.org/](https://processing.org/).
@@ -39,6 +52,19 @@ Follow this instructions in this order:
 * Receiver computer: runs the openFrameworks code.
 * Sender computer: runs the Processing code and draws.
 
+
+
+## Processing
+
+ArrayList
+
+PVector
+
+## openFrameworks
+
+ofPolyline
+
+vertices
 
 
 
