@@ -14,9 +14,15 @@ It is a project by [Aarón Montoya-Moraga](https://montoyamoraga.io/), started i
 
 ## Tutorials
 
-* [tutorial0](tutorial0.md): introductory concepts, how to setup your computer
-* [tutorial1](tutorial1.md): sharing data between computers for sound manipulation
-* [tutorial2](tutorial2.md): sharing data between computers for drawing
+### [tutorial0](tutorial0.md): introductory concepts + setup
+
+This tutorial helps you learn introductory concepts, how to setup your computer
+
+### [tutorial1](tutorial1.md): computer network + sound manipulation
+
+### [tutorial2](tutorial1.md): computer network + drawing
+
+
 
 ## Overview
 
