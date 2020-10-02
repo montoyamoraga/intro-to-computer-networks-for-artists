@@ -7,9 +7,9 @@
 // available at
 // github.com/montoyamoraga/intro-to-computer-networks-for-artists
 
-// drawing_send.pde
-// this is a Processing sketch for sending drawing data
-// to other computer using your mouse
+// drawing_receive.pde
+// this is a Processing sketch for receiving drawing data
+// from another computer using their mouse
 // started in may 2020
 // modified in october 2020
 // v0.0.1

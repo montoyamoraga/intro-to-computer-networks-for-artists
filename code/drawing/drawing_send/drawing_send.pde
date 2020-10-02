@@ -21,36 +21,28 @@
 import oscP5.*;
 import netP5.*;
 
-/////////////////////////
-// variables for networks
-/////////////////////////
+///////////////////
+// global variables
+///////////////////
 
+// declare variables for drawing
+// array of vectors for storing mouse positions
+ArrayList<PVector> vertices = new ArrayList<PVector>();
+// maximum number of vertices stored
+int maxVertices = 256;
+
+// declare variables for OSC communication
 // declare object for sending OSC messages
 OscP5 mySender;
-
 // declare object for representing the receivers
 NetAddress myReceiverDestination;
-
 // declare String for storing IP address of receiver
 String receiverAddress;
 
 // port on the receiver where we send our OSC message
 int sendPort;
-
-// port on the sender where we are listening to OSC messages
-// not relevant here
+// port on the sender where we are listening to OSC messages, not relevant here
 int receivePort = 12000;
-
-////////////////////////
-// variables for drawing
-////////////////////////
-
-// declare variables for drawing
-// array of vectors for storing mouse positions
-ArrayList<PVector> vertices = new ArrayList<PVector>();
-
-// maximum number of vertices stored
-int maxVertices = 256;
 
 // background color whte
 int myBackgroundColor = color(255, 255, 255);
@@ -79,18 +71,17 @@ void setup() {
 }
 
 // draw() is executed after setup() on a loop
-// it is empty, and we need it so that after setup()
-// we are listening to new mouse event
+// it is empty, we need it so that mouse events are triggered
 void draw() {
 }
 
-// mouseDragged() is run every time the mouse is dragged
+// mouseDragged() is triggered every time the mouse is dragged
 void mouseDragged() {
 
   // add current mouse position to vertices array
   vertices.add(new PVector(mouseX, mouseY));
 
-  // if vertices has more elements than allowed maximum, delete oldest ones
+  // if vertices has more elements than maximum, delete oldest ones
   while (vertices.size() > maxVertices) {
     vertices.remove(0);
   }
@@ -117,12 +108,8 @@ void mouseDragged() {
   mySender.send(myMessage, myReceiverDestination);
 }
 
-
-// this function is run every time the mouse is pressed
-// it clears the screen and drawing memory
-
+// mousePressed() is executed when the mouse is pressed
 void mousePressed() {
-  
   // paint background to clear screen
   background(myBackgroundColor);
 
