@@ -1,13 +1,14 @@
 #pragma once
 
-
 #include "ofMain.h"
 
 // import OSC addon
 #include "ofxOsc.h"
 
+// user defined variables
+
 // port for receiving
-#define receivePort 9002
+#define userPortReceive 9002
 
 class ofApp : public ofBaseApp{
 

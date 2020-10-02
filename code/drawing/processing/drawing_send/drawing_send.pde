@@ -1,10 +1,29 @@
-// sendDrawingProcessing
-// draw line with mouse and send to another computer
-// may 2020
+////////
+// about
+////////
 
+// intro to computer networks for artists
+// a project by aaron montoya-moraga
+// available at
+// github.com/montoyamoraga/intro-to-computer-networks-for-artists
+
+// drawing_send.pde
+// this is a Processing sketch for sending drawing data
+// to other computer using your mouse
+// started in may 2020
+// modified in october 2020
+// v0.0.1
+
+///////////////////
 // import libraries
+///////////////////
+
 import oscP5.*;
 import netP5.*;
+
+///////////////////
+// global variables
+///////////////////
 
 // declare variables for drawing
 // array of vectors for storing mouse positions
