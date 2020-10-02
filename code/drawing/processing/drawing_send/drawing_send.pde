@@ -1,4 +1,3 @@
-////////
 // about
 ////////
 
@@ -14,38 +13,34 @@
 // modified in october 2020
 // v0.0.1
 
-///////////////////
 // import libraries
 ///////////////////
 
 import oscP5.*;
 import netP5.*;
 
-/////////////////////////
 // variables for networks
 /////////////////////////
 
-// declare object for sending OSC messages
+// declare object for handling OSC messages
 OscP5 mySender;
 
-// declare object for representing the receivers
+// declare object for destination of message
 NetAddress myReceiverDestination;
 
 // declare String for storing IP address of receiver
-String receiverAddress;
+String receiverAddress = "127.0.0.1";
 
 // port on the receiver where we send our OSC message
-int sendPort;
+int sendPort = 12000;
 
 // port on the sender where we are listening to OSC messages
 // not relevant here
-int receivePort = 12000;
+int receivePort = 12001;
 
-////////////////////////
 // variables for drawing
 ////////////////////////
 
-// declare variables for drawing
 // array of vectors for storing mouse positions
 ArrayList<PVector> vertices = new ArrayList<PVector>();
 
@@ -64,23 +59,15 @@ void setup() {
   // paint canvas background white
   background(myBackgroundColor);
 
-  // receiverAddress is a string, 4 numbers in range (255) separated by "."
-  // TODO: ask receiver for IP address, or test locally with "127.0.0.1"
-  //receiverAddress = "216.180.89.221";
-  receiverAddress = "127.0.0.1";
-
-  // TODO: ask the receiver for the port number, or test locally with 9002
-   sendPort = 12344;
-   
   // declare new OscP5 sender, which listens on port
   mySender = new OscP5(this, receivePort);
+  
   // declare destination
   myReceiverDestination = new NetAddress(receiverAddress, sendPort);
 }
 
 // draw() is executed after setup() on a loop
-// it is empty, and we need it so that after setup()
-// we are listening to new mouse event
+// it is empty, but we need it to listen to mouse events
 void draw() {
 }
 
@@ -117,10 +104,7 @@ void mouseDragged() {
   mySender.send(myMessage, myReceiverDestination);
 }
 
-
 // this function is run every time the mouse is pressed
-// it clears the screen and drawing memory
-
 void mousePressed() {
   
   // paint background to clear screen
