@@ -8,7 +8,7 @@
 // user defined variables
 
 // port for receiving
-#define userPortReceive 9002
+#define userPortReceive 12000
 
 class ofApp : public ofBaseApp{
 
@@ -38,7 +38,8 @@ class ofApp : public ofBaseApp{
         // declare variables for storing values received via OSC
         float receivedX;
         float receivedY;
-    
+        
+        // max number of vertices of the drawing
         int maxVertices;
         
 };

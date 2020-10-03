@@ -3,8 +3,8 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
-    ofSetWindowTitle("drawingReceiveOpenFrameworks");
-    myReceiver.setup(receivePort);
+    ofSetWindowTitle("drawingReceive");
+    myReceiver.setup(userPortReceive);
     maxVertices = 256;
 }
 
