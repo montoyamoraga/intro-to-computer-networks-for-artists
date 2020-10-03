@@ -7,7 +7,7 @@
 // available at
 // github.com/montoyamoraga/intro-to-computer-networks-for-artists
 
-// drawing_receive.pde
+// drawingReceive.pde
 // this is a Processing sketch for receiving drawing data
 // from another computer using their mouse
 // started in may 2020, modified in october 2020
